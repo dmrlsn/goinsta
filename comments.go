@@ -313,6 +313,8 @@ type Comment struct {
 	HasMoreHeadChildComments       bool      `json:"has_more_head_child_comments,omitempty"`
 	NumTailChildComments           int       `json:"num_tail_child_comments,omitempty"`
 	NumHeadChildComments           int       `json:"num_head_child_comments,omitempty"`
+	ShareEnabled                   bool      `json:"share_enabled,omitempty"`
+	MediaId                        int64     `json:"media_id,omitempty"`
 	Status                         string    `json:"status"`
 }
 
